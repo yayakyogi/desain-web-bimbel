@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istiqomah Course</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Welcome to Istiqomah Course</h1>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="kelas.html">Kelas</a>
+                <a href="daftar.html">Daftar</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+        </nav>
+            <div class="daftar">
+                <form action="daftar.html" method="GET">
+                    <div class="form-modal">
+                        <div class="form-header">
+                            Form Pendaftaran
+                        </div>
+                        <div class="form-body" style="text-align: left;">
+                            <label>Nama Lengkap</label><br>
+                            <input type="text" name="nama" class="form-control" placeholder="Nama lengkap"><br>
+
+                            <label>TTL</label><br>
+                            <input type="text" name="ttl" class="form-control" placeholder="DD/MM/YYYY"><br>
+
+                            <label>Jenis Kelamain</label><br>
+                            <select name="jenis_kelamin" class="form-control">
+                                <option value="-">-Pilih-</option>
+                                <option value="Laki-laki">Laki-laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </select><br>
+
+                            <label>Agama</label><br>
+                            <input type="text" name="agama" class="form-control" placeholder="Agama"><br>
+
+                            <label>Asal Sekolah</label><br>
+                            <input type="text" name="asal-sekolah" class="form-control" placeholder="Asal Sekolah"><br>
+
+                            <label>Nama Orang Tua/Wali</label><br>
+                            <input type="text" name="orangtua" class="form-control" placeholder="Nama Orang Tua/Wali"><br>
+
+                            <label>No Hp Saudara</label><br>
+                            <input type="text" name="no-hp" class="form-control" placeholder="No HP anda sendiri"><br>
+
+                            <label>Alamat</label><br>
+                            <textarea name="alamat" cols="5" rows="5" class="form-control" placeholder="Alamat lengkap"></textarea>
+                            <input type="submit" class="btn-submit" value="Daftar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
